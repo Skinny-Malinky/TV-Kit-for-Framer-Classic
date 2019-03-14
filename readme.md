@@ -26,12 +26,12 @@ mainMenu = new Menu
 To define the contents of a menu, you can use:
 
 ```
-itemsArray = ['Guide', 'MyTV', 'Discover','Settings']
+itemsArray = ['Watch', 'Recordings', 'Explore','Settings']
 
-contentArray = [guideCarousel, myTVCarousel, discoverCarousel, settingsCarousel]
+contentArray = [watchCarousel, recordingsCarousel, exploreCarousel, settingsCarousel]
 
 mainMenu = new Menu
-    items: contentsArray
+    items: itemsArray
     menuContent: contentArray
 ```
 
@@ -48,7 +48,7 @@ Similarly with carousels...
 
 ```
 {Carousel} = require 'Carousel'
-guideMainMenu = new Carousel
+featured = new Carousel
 ```
 
 ![Creating a carousel in Framer](readme-assets/carousel.gif "Easy Peasy Carousels")
